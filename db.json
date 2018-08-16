@@ -1,0 +1,463 @@
+{
+  "restaurants": [
+    {
+      "id": "bike-life",
+      "name": "Bike Life",
+      "category": "Bicicletas",
+      "deliveryEstimate": "Tempo estimado de entrega: 100min",
+      "rating": 3.5,
+      "imagePath": "assets/img/restaurants/001-bicycle.png",
+      "about": "40 anos se especializando em bicicletas esportivas e convencionais.",
+      "hours": "Funciona todos os dias, de 10h às 22h"
+    },
+    {
+      "id": "SC-Sport_Club",
+      "name": "SC - SPORT CLUB",
+      "category": "Esportes",
+      "deliveryEstimate": "Tempo estimado de entrega: 25min",
+      "rating": 4.9,
+      "imagePath": "assets/img/restaurants/005-podium.png",
+      "about": "A SPORT CLUB tem 40 anos de mercado. Oferecemos os melhores produtos. Compre e confira.",
+      "hours": "Funciona de segunda à sexta, de 8h às 23h"
+    },
+    {
+      "id": "shoes",
+      "name": "Sport Niko",
+      "category": "Sapataria",
+      "deliveryEstimate": "Tempo estimado de entrega: 30-40min",
+      "rating": 4.8,
+      "imagePath": "assets/img/restaurants/005-gym-shoes.png",
+      "about": "A Sport Niko foi eleita a melhor loja de calçados da cidade.",
+      "hours": "Funciona de segunda à sábado, de 6h às 22h"
+    },
+    {
+      "id": "green-food",
+      "name": "Green Food",
+      "category": "Saudável",
+      "deliveryEstimate": "Tempo estimado de entrega: 75min",
+      "rating": 4.1,
+      "imagePath": "assets/img/restaurants/greenfood.png",
+      "about": "Comida saudável é no Green Food. Compramos barato, vendemos caro. ;)",
+      "hours": "Somente em horário de almoço, das 11h às 15h"
+    },
+    {
+      "id": "Gym",
+      "name": "GYM SOLUTION",
+      "category": "Academia",
+      "deliveryEstimate": "Tempo estimado de entrega: 40-65min",
+      "rating": 4.5,
+      "imagePath": "assets/img/restaurants/005-dumbell.png",
+      "about": "A GYM SOLUTION é uma loja esportiva inovadora.",
+      "hours": "Funciona todos os dias, de 10h às 1h"
+    }
+  ],
+  "menu": [
+    {
+      "id": "bike",
+      "imagePath": "assets/img/foods/bicycle.png",
+      "name": "Classic Bike",
+      "description": "A clássica. Não tem como errar.",
+      "price": 180.5,
+      "restaurantId": "bike-life"
+    },
+    {
+      "id": "sport-bike",
+      "imagePath": "assets/img/foods/cycling.png",
+      "name": "Bicicleta Esportiva",
+      "description": "Bicicleta Esportiva",
+      "price": 590.5,
+      "restaurantId": "bike-life"
+    },
+    {
+      "id": "cycling",
+      "imagePath": "assets/img/foods/006-bike.png",
+      "name": "Bicicleta Padrão",
+      "description": "A bicicleta que não te deixará na mão.",
+      "price": 412.5,
+      "restaurantId": "bike-life"
+    },
+    {
+      "id": "basketball",
+      "imagePath": "assets/img/foods/001-basketball.png",
+      "name": "Bola de Basquete",
+      "description": "Bola profissional para prática do esporte.",
+      "price": 28.7,
+      "restaurantId": "SC-Sport_Club"
+    },
+    {
+      "id": "soccer",
+      "imagePath": "assets/img/foods/002-soccer.png",
+      "name": "Bola de Futebol",
+      "description": "Bola profissional para prática do esporte.",
+      "price": 25.5,
+      "restaurantId": "SC-Sport_Club"
+    },
+    {
+      "id": "ping-pong",
+      "imagePath": "assets/img/foods/004-ping-pong.png",
+      "name": "Kit PING PONG",
+      "description": "Kit profissional para prática do esporte",
+      "price": 15.9,
+      "restaurantId": "SC-Sport_Club"
+    },
+    {
+      "id": "sportive-shoes",
+      "imagePath": "assets/img/foods/001-running-sportive-shoe-for-soccer-players.png",
+      "name": "Calçado Esportivo",
+      "description": "Ideal para jogar futebol",
+      "price": 120.9,
+      "restaurantId": "shoes"
+    },
+    {
+      "id": "running-shoe",
+      "imagePath": "assets/img/foods/004-trail-running-shoe.png",
+      "name": "Sapatos de Corrida",
+      "description": "Ideal para correr",
+      "price": 89.5,
+      "restaurantId": "shoes"
+    },
+    {
+      "id": "basic-shoes",
+      "imagePath": "assets/img/foods/003-shoes.png",
+      "name": "Sapatos básicos",
+      "description": "O mais pedido da casa. O verdadeiro calçado casual.",
+      "price": 269.6,
+      "restaurantId": "shoes"
+    },
+    {
+      "id": "zlasagna",
+      "imagePath": "assets/img/foods/zlasagna.png",
+      "name": "Lasagna de Zucchini",
+      "description": "Lasagna deliciosa que se salva por causa do queijo",
+      "price": 14.9,
+      "restaurantId": "green-food"
+    },
+    {
+      "id": "greensandwich",
+      "imagePath": "assets/img/foods/greensandwich.png",
+      "name": "Sanduíche de Frango",
+      "description": "Frango grelhado e salada",
+      "price": 10.5,
+      "restaurantId": "green-food"
+    },
+    {
+      "id": "ceasar",
+      "imagePath": "assets/img/foods/ceasar.png",
+      "name": "Salada Ceasar",
+      "description": "Clássica salada ceasar.",
+      "price": 33.9,
+      "restaurantId": "green-food"
+    },
+    {
+      "id": "bicicleta",
+      "imagePath": "assets/img/foods/001-stationary-bike.png",
+      "name": "Bicicleta",
+      "description": "Bicicleta para exercícios em casa",
+      "price": 300.5,
+      "restaurantId": "Gym"
+    },
+    {
+      "id": "gloves",
+      "imagePath": "assets/img/foods/003-training-gloves.png",
+      "name": "Luvas táticas de treinamento",
+      "description": "Luvas para aprimorar seu treinamento",
+      "price": 38.1,
+      "restaurantId": "Gym"
+    },
+    {
+      "id": "alteres",
+      "imagePath": "assets/img/foods/002-weight.png",
+      "name": "Alteres de treinamento",
+      "description": "Clássico para a musculação.",
+      "price": 29.5,
+      "restaurantId": "Gym"
+    },
+    {
+      "id": "bag",
+      "imagePath": "assets/img/foods/004-punching-ball.png",
+      "name": "Saco de pancadas",
+      "description": "Sinta-se o próprio Rocky",
+      "price": 123.5,
+      "restaurantId": "Gym"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Julia",
+      "date": "2017-01-23T18:25:43",
+      "rating": 4.5,
+      "comments": "Tudo muito bom, entrega no tempo certo",
+      "restaurantId": "SC-Sport_Club"
+    },
+    {
+      "name": "Aline",
+      "date": "2016-12-12T18:25:43",
+      "rating": 3,
+      "comments": "NÃO recomendo. Péssima qualidade de produtos",
+      "restaurantId": "SC-Sport_Club"
+    },
+    {
+      "name": "Renata",
+      "date": "2016-12-12T18:25:43",
+      "rating": 2,
+      "comments": "Não foi muito agradável a nossa necessidade pois é muito frágil, e eu e meu esposo no outro dia passamos para devolver os produtos. Pode até ter sido outra coisa, mas...",
+      "restaurantId": "SC-Sport_Club"
+    },
+    {
+      "name": "Renata",
+      "date": "2016-12-12T18:25:43",
+      "rating": 5,
+      "comments": "Nunca deixou na mão, produtos excelentes.",
+      "restaurantId": "SC-Sport_Club"
+    },
+    {
+      "name": "Daniela",
+      "date": "2017-01-23T18:25:43",
+      "rating": 5,
+      "comments": "Produtos de extrema qualidade, super aprovado!",
+      "restaurantId": "bike-life"
+    },
+    {
+      "name": "Laila",
+      "date": "2017-02-02T18:25:43",
+      "rating": 5,
+      "comments": "Melhor loja para compra de bicicletas, recomendo a compra.",
+      "restaurantId": "bike-life"
+    },
+    {
+      "name": "Suzana",
+      "date": "2016-12-12T18:25:43",
+      "rating": 3.5,
+      "comments": "Minha bike chegou com pneu murxo e peças todas desmontadas =\\",
+      "restaurantId": "bike-life"
+    },
+    {
+      "name": "Eric",
+      "date": "2017-01-23T18:25:43",
+      "rating": 4.5,
+      "comments": "Excelente opção! Recomendo!",
+      "restaurantId": "shoes"
+    },
+    {
+      "name": "Amanda",
+      "date": "2017-02-02T18:25:43",
+      "rating": 2.5,
+      "comments": "Demorou muito e o tênis veio usado",
+      "restaurantId": "shoes"
+    },
+    {
+      "name": "Carla",
+      "date": "2016-12-12T18:25:43",
+      "rating": 4.8,
+      "comments": "Tudo perfeito. Entrega e embalagem. Resultado? Melhor custo beneficio",
+      "restaurantId": "shoes"
+    },
+    {
+      "name": "Rodrigo",
+      "date": "2016-12-12T18:25:43",
+      "rating": 4,
+      "comments": "Muito rápida a entrega, mas é caro.",
+      "restaurantId": "shoes"
+    },
+    {
+      "name": "André",
+      "date": "2016-12-12T18:25:43",
+      "rating": 4.5,
+      "comments": "Excelente como sempre!",
+      "restaurantId": "shoes"
+    },
+    {
+      "name": "João",
+      "date": "2017-01-23T18:25:43",
+      "rating": 5,
+      "comments": "Excelente. Fiz o pedido com outro endereço e quando vi o erro liguei avisando. O motoqueiro cortou a cidade todinha e a comida ainda chegou quentinha (e deliciosa). Estou sempre pedindo e recomendando",
+      "restaurantId": "green-food"
+    },
+    {
+      "name": "Marcelo",
+      "date": "2017-02-02T18:25:43",
+      "rating": 4.5,
+      "comments": "Chegou muito rápido, antes mesmo da previsão",
+      "restaurantId": "green-food"
+    },
+    {
+      "name": "Fatinha",
+      "date": "2017-01-23T18:25:43",
+      "rating": 2,
+      "comments": "Ñ gostei dos aparelhos q pedi e achei o preço muito elevado",
+      "restaurantId": "Gym"
+    },
+    {
+      "name": "Lucas",
+      "date": "2017-02-02T18:25:43",
+      "rating": 2.5,
+      "comments": "Esperar 1:45hr pra receber o pedido é INACEITÁVEL",
+      "restaurantId": "Gym"
+    },
+    {
+      "name": "Jacira",
+      "date": "2017-02-01T18:25:43",
+      "rating": 4.5,
+      "comments": "Veio OK!",
+      "restaurantId": "Gym"
+    }
+  ],
+  "orders": [
+    {
+      "name": "Matheus Neves",
+      "email": "dquwhe@ejwuhque.chywqe",
+      "emailConfirmation": "dquwhe@ejwuhque.chywqe",
+      "address": "ejwqheuqwe",
+      "number": "1234",
+      "optionalAddress": "",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 6,
+          "menuId": "zlasagna"
+        },
+        {
+          "quantity": 1,
+          "menuId": "ceasar"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Yuri Leal Gomes",
+      "email": "email@email.com",
+      "emailConfirmation": "email@email.com",
+      "address": "Endereço",
+      "number": "12387",
+      "optionalAddress": "",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "bike"
+        },
+        {
+          "quantity": 1,
+          "menuId": "sport-bike"
+        },
+        {
+          "quantity": 1,
+          "menuId": "basketball"
+        },
+        {
+          "quantity": 1,
+          "menuId": "ping-pong"
+        },
+        {
+          "quantity": 1,
+          "menuId": "bicicleta"
+        },
+        {
+          "quantity": 1,
+          "menuId": "gloves"
+        },
+        {
+          "quantity": 5,
+          "menuId": "alteres"
+        },
+        {
+          "quantity": 1,
+          "menuId": "bag"
+        },
+        {
+          "quantity": 3,
+          "menuId": "greensandwich"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "asddsa",
+      "email": "2313@asd.sdaas",
+      "emailConfirmation": "2313@asd.sdaas",
+      "address": "dsadasdsa",
+      "number": "3123124",
+      "optionalAddress": "",
+      "paymentOption": "REF",
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "basic-shoes"
+        },
+        {
+          "quantity": 4,
+          "menuId": "greensandwich"
+        },
+        {
+          "quantity": 2,
+          "menuId": "gloves"
+        },
+        {
+          "quantity": 2,
+          "menuId": "ping-pong"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Euzin",
+      "email": "gui_francelino@hotmail.com",
+      "emailConfirmation": "gui_francelino@hotmail.com",
+      "address": "Nao tenho casa senhor",
+      "number": "616",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "basic-shoes"
+        },
+        {
+          "quantity": 1,
+          "menuId": "cycling"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "hgfhfytfyty",
+      "email": "asehwqje@enqwjenqw.com",
+      "emailConfirmation": "asehwqje@enqwjenqw.com",
+      "address": "hfggytryrty",
+      "number": "123",
+      "optionalAddress": "",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "running-shoe"
+        },
+        {
+          "quantity": 1,
+          "menuId": "basic-shoes"
+        },
+        {
+          "quantity": 1,
+          "menuId": "sport-bike"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "frsdrew",
+      "email": "mu@eqw.com",
+      "emailConfirmation": "mu@eqw.com",
+      "address": "ewqewqe",
+      "number": "123",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 17,
+          "menuId": "running-shoe"
+        }
+      ],
+      "id": 6
+    }
+  ]
+}
